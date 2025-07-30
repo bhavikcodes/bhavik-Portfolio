@@ -1,0 +1,45 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.hero img{
+    margin-top: 50px;
+}
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-weight: 600;
+    font-size: 90px;
+}
+.hero h1 span{
+    background-image: linear-gradient(to right,#97a2ab 0%,#5796b6 51%,#1497ef 100%);
+    background-clip:text ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-resume{
+    padding: 20px 45px;
+    border-radius:50px ;
+    border: 2px solid #3a88bc;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.hero-resume:hover{
+    box-shadow: 0px 0px 20px #3a88bc;
+}
