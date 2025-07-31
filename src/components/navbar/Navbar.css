@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0px 170px;
-  height: 80px;
+  height: 70px;
   background-color: #161513;
    background: rgba(22, 21, 19, 0.6); /* translucent bg */
   backdrop-filter: blur(100px);       /* frosted effect */
@@ -17,7 +17,7 @@
   align-items: center;
   list-style: none;
   gap: 60px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .nav-connect {
  

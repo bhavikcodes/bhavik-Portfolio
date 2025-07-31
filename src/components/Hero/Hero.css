@@ -2,16 +2,17 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 35px;
+    gap: 30px;
 }
 .hero img{
-    margin-top: 50px;
+    margin-top: 40px;
+    height: 300px;
 }
 .hero h1{
     text-align: center;
     width: 70%;
     font-weight: 600;
-    font-size: 90px;
+    font-size: 60px;
 }
 .hero h1 span{
     background-image: linear-gradient(to right,#97a2ab 0%,#5796b6 51%,#1497ef 100%);
@@ -22,8 +23,8 @@
 .hero p{
     width: 50%;
     text-align: center;
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 35px;
 }
 .hero-action{
     display: flex;
