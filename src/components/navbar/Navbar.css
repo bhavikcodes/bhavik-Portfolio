@@ -37,7 +37,18 @@
 .nav-connect:hover{
  background-position: right center; /* change the direction of the change here */
   color: #fff;
-  box-shadow: 0 0 40px #4c4c4c;
+  box-shadow: 0 0 40px #929292;
   text-decoration: none;
 }
 
+.main-name{
+  font-size: 40px;
+  font-weight:700;
+  letter-spacing: 2.5px;
+  color: #ffffffe9;
+
+}
+.main-name span{
+  color: rgb(30, 138, 226);
+  font-weight: 900;
+}

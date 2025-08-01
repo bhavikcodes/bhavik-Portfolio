@@ -1,0 +1,88 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color:rgba(33, 33, 33, 0.719); 
+  color: white;
+  padding: 1.5rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    padding: 3rem;
+  }
+}
+
+.footer-contact {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer-contact {
+    text-align: left;
+    margin-bottom: 0;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .footer-contact-heading {
+    font-size: 2.25rem;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .footer-contact-email {
+    justify-content: flex-start;
+    font-size: 1.25rem;
+  }
+}
+
+.footer-message {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer-message {
+    margin-bottom: 0;
+  }
+}
+
+.footer-message-text {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .footer-message-text {
+    font-size: 1.25rem;
+  }
+}
+
+.footer-icons {
+  display: flex;
+  gap: 5rem;
+}
+
+.footer-icon-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer-icon-link:hover {
+  color: #2891e1; /* orange-500 */
+}
+
+#decor{
+    font-size: 25px;
+     background:  linear-gradient(#1497ef 100%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
