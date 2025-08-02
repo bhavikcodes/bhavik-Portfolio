@@ -1,0 +1,90 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: 20px 100px;
+}
+.skill-heading {
+  text-align: center;
+}
+.skill-heading h1 {
+  padding: 0px 30px;
+  font-weight: 500;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.skill-heading h1 span {
+  color: rgb(34, 126, 255);
+}
+.skill-section {
+  display: flex;
+   align-items: center;
+  justify-content: center;
+  gap: 13rem;
+}
+.skill-sec-left {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.skill-sec-midL {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.skill-sec-midR {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.skill-sec-right {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.one-skill{
+    margin: 1rem;
+}
+.skill-icon{
+    font-size: 5rem;
+    margin: 0rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.rotate-once {
+  animation: rotateOnce 2.5s ease-in-out forwards;
+}
+
+@keyframes rotateOnce {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.skill-img{
+    /* margin: 5px 100px; */
+    display: flex;
+    gap:20rem
+}
+.skill-img img{
+    height: 15rem;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.skill-img img:hover{
+    height: 14rem;
+    opacity: 1;
+    cursor: pointer;
+    
+}
