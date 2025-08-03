@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Skills from "./components/skills/Skills";
+import Project from "./components/project/Project";
 
 const App = () => {
   return (
@@ -14,10 +15,12 @@ const App = () => {
         <Hero  />
         <About />
         <Skills/>
+        <Project/>
         <Contact />
         <Footer />
     </div>
   );
 };
+
 
 export default App;

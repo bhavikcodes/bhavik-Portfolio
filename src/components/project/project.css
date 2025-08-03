@@ -1,0 +1,80 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  gap:60px;
+  align-items: center;
+  justify-content: center;
+  margin: 90px 80px;
+}
+.project-heading h1 {
+  padding: 0px 30px;
+  font-weight: 500;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.project-heading h1 span {
+  color: rgb(34, 126, 255);
+}
+
+.project-content-fe,
+.project-content-be {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  gap: 5rem;
+}
+
+.card {
+      width: 18rem; /* Lock width even on scale */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  color: rgb(255, 255, 255);
+  background-color: #262626ff;
+  padding: 4px;
+  border-radius: 10px;
+  height: 24rem;
+  transition: 0.2s;
+}
+ /* .card {
+  color: rgb(255, 255, 255);
+  background-color: #262626ff;
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid white;
+  height: 24rem;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+} */
+.card:hover {
+ z-index: 10;
+  transform: scale(1.05);
+  /* box-shadow: 0px 0px 10px rgba(192, 193, 195, 0.8); */
+ cursor: pointer;
+  border:2px solid rgb(34, 126, 255);
+}
+.card-body {
+  width: 100%;
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-top: 16px;
+  text-align: center;
+}
+.card h5 {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+}
+.linkIcon{
+    color: rgb(0, 106, 255);
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
