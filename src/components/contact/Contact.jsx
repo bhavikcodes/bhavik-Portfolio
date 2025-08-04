@@ -6,8 +6,33 @@ import call_icon from "../../assets/call_icon.svg"
 // import { IoIosSend } from "react-icons/io";
 
 const Contact = () => {
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "48a7a15a-a951-4321-b500-8ddf43c40d7e");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      alert(res.message);
+    }
+  };
+
+
   return (
-    <div className='contact'>
+    <div id="contact" className='contact'>
       <div className="contact-title">
         <h1>Contac<span>t</span></h1>
       </div>
@@ -23,7 +48,7 @@ const Contact = () => {
                  <div className="detail"> <img src={location_icon} alt="" /><p>Bhopal, MP</p> </div>
             </div>
         </div>
-        <form className="contact-right">
+        <form className="contact-right" onSubmit={onSubmit}>
             <label htmlFor="">Your Name</label>
             <input type="text" name="name" placeholder='enter your name' />
             

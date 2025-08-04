@@ -10,7 +10,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Project = () => {
   return (
-    <div>
+    <div id="project">
       <div className="project">
         <div className="project-heading">
           <h1>
