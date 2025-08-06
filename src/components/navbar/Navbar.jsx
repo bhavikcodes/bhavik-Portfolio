@@ -88,7 +88,6 @@
 
 // export default Navbar;
 
-
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
@@ -188,7 +187,21 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="nav-connect">Let's Connect!</div>
+      <div className="nav-connect">
+        {" "}
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          className="anchor-link"
+          onClick={closeMenu}
+        >
+          Let's Connect!
+        </Link>
+      </div>
     </div>
   );
 };

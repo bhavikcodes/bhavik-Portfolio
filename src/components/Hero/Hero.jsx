@@ -43,7 +43,7 @@ const Hero = () => {
           building things that work well and look better.
         </p>
         <div className="hero-action">
-          <div className="hero-resume">My resume</div>
+          <div className="hero-resume"><a href="https://drive.google.com/drive/folders/16RQS0HIfx6HGOm3V2qRDfyOhciWagn1r?usp=drive_link" target="_blank" rel="noopener noreferrer" >My resume</a></div>
         </div>
       </div>
     </>
