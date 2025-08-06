@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Skills from "./components/skills/Skills";
-import Project from "./components/project/Project";
+import Skills from "./components/Skills/Skills";
+import Project from "./components/Project/Project";
 
 const App = () => {
   return (
