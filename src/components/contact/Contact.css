@@ -151,11 +151,19 @@
     }
 
     .contact-left h1 {
-        font-size: 32px;
+        font-size: 28px;
+        margin-bottom: 0px;
+        background: linear-gradient(to right, #97a2ab 0%, #0099ff 50%);
+         background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        text-align: center;
+
     }
 
     .contact-left p {
         font-size: 16px;
+        margin-top: 0px;
         line-height: 25px;
         text-align: center;
     }
