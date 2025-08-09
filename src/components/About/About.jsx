@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="about-para">
           <p>
-            <b style={{ fontSize: "25px", fontWeight: "600" }}>Hello people!👋😃</b> I’m a 3<sup>rd</sup> B.Tech student at UIT RGPV, Bhopal, specializing in Computer Science and Engineering. I have a strong foundation in C++ and Data Structures & Algorithms, and I enjoy solving real-world problems through efficient code.
+            <b style={{ fontSize: "25px", fontWeight: "600" }}>Hello people!👋😃</b> I’m a 3<sup>rd</sup> year B.Tech student at UIT RGPV, Bhopal, specializing in Computer Science and Engineering. I have a strong foundation in C++ and Data Structures & Algorithms, and I enjoy solving real-world problems through efficient code.
             <br />
             I’m also a MERN stack developer, having built and deployed fun and utility based basic level front-end projects to fully functional advanced full-stack projects from scratch, handling both frontend and backend development.
             I actively practice on platforms like <a href="https://leetcode.com/u/bhavikcodes/" target="_blank" rel="noopener noreferrer">LeetCode</a>, <a href="https://www.geeksforgeeks.org/user/bj541yy55/" target="_blank" rel="noopener noreferrer">GFG</a> and <a href="https://www.hackerrank.com/profile/bj541023" target="_blank" rel="noopener noreferrer">HackerRank</a> and have solved various challenging DSA problems, and hold a 5-star C++ badge on HackerRank.
