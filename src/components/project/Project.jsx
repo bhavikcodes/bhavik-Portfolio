@@ -6,6 +6,7 @@ import SimonSays from '../../assets/project/SimonSays.png'
 import SpotifyClone from '../../assets/project/SpotifyClone.png'
 import TextUtils from '../../assets/project/TextUtils.png'
 import WanderLust from '../../assets/project/WanderLust.png'
+import Brobot from '../../assets/project/Brobot.png'
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Project = () => {
@@ -18,12 +19,23 @@ const Project = () => {
           </h1>
         </div>
         <div className="project-content-fe">
+
           <div className="card">
             <img src={WanderLust} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Wanderlust <a href="https://wanderlust-project-9x1g.onrender.com/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt className="linkIcon" /></a></h5>
               <p className="card-text">
                 A full-stack travel booking web app with CRUD operations, user authentication, and dynamic listings. Developed using <b>Node.js</b>, <b>Express</b>, <b>MongoDB</b>, <b>EJS</b>, and <b>Bootstrap</b>.
+              </p>
+            </div>
+          </div>
+
+          <div className="card">
+            <img src={Brobot} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">BroBot AI <a href="https://bro-bot-ai.vercel.app/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt className="linkIcon" /></a></h5>
+              <p className="card-text">
+                A Gen-Z–styled AI chatbot that replies in a chill, humorous, jokes, and bro energy — making conversations more engaging and fun. Used <b>OpenAI API integration</b>
               </p>
             </div>
           </div>
@@ -38,15 +50,6 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="card">
-            <img src={TextUtils} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">TextUtils <a href="https://bhavikcodes.github.io/TextUtils/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt className="linkIcon" /></a></h5>
-              <p className="card-text">
-                A simple text utility app that allows users to perform text transformations like uppercase, lowercase, and speech, with Dark mode theme. Made with <b>React.js</b> and <b>Bootstrap</b>.
-              </p>
-            </div>
-          </div>
         </div>
 
         <div className="project-content-be">
@@ -69,6 +72,17 @@ const Project = () => {
               </p>
             </div>
           </div>
+
+          <div className="card">
+            <img src={TextUtils} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">TextUtils <a href="https://bhavikcodes.github.io/TextUtils/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt className="linkIcon" /></a></h5>
+              <p className="card-text">
+                A simple text utility app that allows users to perform text transformations like uppercase, lowercase, and speech, with Dark mode theme. Made with <b>React.js</b> and <b>Bootstrap</b>.
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
