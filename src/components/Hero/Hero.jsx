@@ -39,7 +39,7 @@ const Hero = () => {
           <span>Hi, I’m Bhavik Jain</span>
         </h1>
         <p>
-          CS student, MERN stack developer & C++ problem solver who loves
+          CSE undergrad, MERN stack developer & C++ problem solver who loves
           building things that work well and look better.
         </p>
         <div className="hero-action">
