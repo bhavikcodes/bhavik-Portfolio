@@ -7,6 +7,7 @@ import SpotifyClone from '../../assets/project/SpotifyClone.png'
 import TextUtils from '../../assets/project/TextUtils.png'
 import WanderLust from '../../assets/project/WanderLust.png'
 import Brobot from '../../assets/project/Brobot.png'
+import PingUp from '../../assets/project/PingUp.png'
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Project = () => {
@@ -19,6 +20,16 @@ const Project = () => {
           </h1>
         </div>
         <div className="project-content-fe">
+
+          <div className="card">
+            <img src={PingUp} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">PingUp <a href="https://pingup-x6ol.onrender.com/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt className="linkIcon" /></a></h5>
+              <p className="card-text">
+                A Real-time video conferencing platform using <b>WebRTC</b> with <b>P2P architecture</b>.  Implemented video, audio, screen sharing, and in-call chat with Socket.IO–based signaling,
+              </p>
+            </div>
+          </div>
 
           <div className="card">
             <img src={WanderLust} className="card-img-top" alt="..." />
@@ -36,16 +47,6 @@ const Project = () => {
               <h5 className="card-title">BroBot AI <a href="https://bro-bot-ai.vercel.app/" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt className="linkIcon" /></a></h5>
               <p className="card-text">
                 A Gen-Z–styled AI chatbot that replies in a chill, humorous, jokes, and bro energy — making conversations more engaging and fun. Used <b>OpenAI API integration</b>
-              </p>
-            </div>
-          </div>
-
-          <div className="card">
-            <img src={AyuCare} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">AyuCare <a href="https://github.com/bhavikcodes/AyuCare.git" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt className="linkIcon" /></a></h5>
-              <p className="card-text">
-                A web platform connecting users with Ayurveda and India’s wellness practices with a modern, responsive UI. Built using the <b>MERN</b> Stack, <b>Tailwind CSS</b>, <b>Clerk Authentication</b>.
               </p>
             </div>
           </div>
