@@ -26,14 +26,6 @@
 
 .skill-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-}
-
-.skill-row {
-  display: flex;
   align-items: center;
   justify-content: center;
   gap: 7.5rem;
@@ -113,10 +105,6 @@
   }
 
   .skill-section {
-    gap: 2.5rem;
-  }
-
-  .skill-row {
     gap: 5rem;
   }
 
@@ -144,10 +132,8 @@
   }
 
   .skill-section {
-    gap: 2rem;
-  }
-
-  .skill-row {
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 3rem;
   }
 
@@ -178,11 +164,8 @@
   }
 
   .skill-section {
-    gap: 1.5rem;
-  }
-
-  .skill-row {
     gap: 2rem;
+    display: flex;
     flex-direction: column;
   }
 

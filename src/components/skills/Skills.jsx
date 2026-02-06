@@ -117,36 +117,11 @@ const Skills = () => {
         </div>
         <div className="skill-section">
 
-          {/* Programming Languages */}
-          <div className="skill-row">
+          <div className="skill-sec-left">
             <div className="one-skill">
               <SiCplusplus className="skill-icon" style={{ color: "#3786feff" }} />
               <span className="skill-name">C++</span>
             </div>
-            <div className="one-skill">
-              <RiJavascriptFill className="skill-icon" style={{ color: "#fffb00ff" }} />
-              <span className="skill-name">JavaScript</span>
-            </div>
-            <div className="one-skill">
-              <SiTypescript className="skill-icon" style={{ color: "#3178c6" }} />
-              <span className="skill-name">TypeScript</span>
-            </div>
-          </div>
-
-          {/* Frontend Basics */}
-          <div className="skill-row">
-            <div className="one-skill">
-              <FaHtml5 className="skill-icon" style={{ color: "#ff5c5cff" }} />
-              <span className="skill-name">HTML</span>
-            </div>
-            <div className="one-skill">
-              <IoLogoCss3 className="skill-icon" style={{ color: "#1962ffff" }} />
-              <span className="skill-name">CSS</span>
-            </div>
-          </div>
-
-          {/* Libraries / Backend */}
-          <div className="skill-row">
             <div className="one-skill">
               <FaReact className="skill-icon" style={{ color: "#00dbffff" }} />
               <span className="skill-name">React</span>
@@ -155,17 +130,31 @@ const Skills = () => {
               <SiExpress className="skill-icon" style={{ color: "white" }} />
               <span className="skill-name">Express</span>
             </div>
-            <div className="one-skill">
-              <DiNodejs className="skill-icon" style={{ color: "#008b23ff", fontSize: "8rem" }} />
-              <span className="skill-name">Node.js</span>
-            </div>
           </div>
 
-          {/* Databases */}
-          <div className="skill-row">
+          <div className="skill-sec-midL">
+            <div className="one-skill">
+              <FaHtml5 className="skill-icon" style={{ color: "#ff5c5cff" }} />
+              <span className="skill-name">HTML</span>
+            </div>
+            <div className="one-skill">
+              <SiTypescript className="skill-icon" style={{ color: "#3178c6" ,fontSize: "3.5rem"}} />
+              <span className="skill-name">TypeScript</span>
+            </div>
             <div className="one-skill">
               <SiMongodb className="skill-icon" style={{ color: "#00c61eff" }} />
               <span className="skill-name">MongoDB</span>
+            </div>
+          </div>
+
+          <div className="skill-sec-midR">
+            <div className="one-skill">
+              <IoLogoCss3 className="skill-icon" style={{ color: "#1962ffff" }} />
+              <span className="skill-name">CSS</span>
+            </div>
+            <div className="one-skill">
+              <FaGitAlt className="skill-icon" style={{ color: "#f34f29" }} />
+              <span className="skill-name">Git</span>
             </div>
             <div className="one-skill">
               <SiMysql className="skill-icon" style={{ color: "#fe6c11ff" }} />
@@ -173,11 +162,14 @@ const Skills = () => {
             </div>
           </div>
 
-          {/* Version Control */}
-          <div className="skill-row">
+          <div className="skill-sec-right">
             <div className="one-skill">
-              <FaGitAlt className="skill-icon" style={{ color: "#f34f29" }} />
-              <span className="skill-name">Git</span>
+              <RiJavascriptFill className="skill-icon" style={{ color: "#fffb00ff" }} />
+              <span className="skill-name">JavaScript</span>
+            </div>
+            <div className="one-skill">
+              <DiNodejs className="skill-icon" style={{ color: "#008b23ff", fontSize: "8rem" }} />
+              <span className="skill-name">Node.js</span>
             </div>
             <div className="one-skill">
               <IoLogoGithub className="skill-icon" style={{ color: "#ffffffff" }} />
